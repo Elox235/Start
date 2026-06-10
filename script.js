@@ -91,7 +91,7 @@ themeButton.addEventListener("click", changeTheme);
 updateStats(); 
 
 function myFunction() {
-  document.getElementById("trainButton").classList.toggle("dark")
+  document.getElementById("damageButton").classList.toggle("dark")
 }
 
 document.querySelector(".log-box").addEventListener("click", myFunction) 
