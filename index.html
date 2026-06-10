@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Hero Control Panel</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <section class="hero-card">
+      <h1>Hero Control Panel</h1>
+
+      <img
+        class="hero-image"
+        src="
+https://placehold.co/180x180?text=Hero
+"
+        alt="Hero avatar"
+      >
+
+      <div class="name-box">
+        <input id="nameInput" type="text" placeholder="Enter hero name">
+        <button id="changeNameButton">Change name</button>
+      </div>
+
+      <h2 id="heroName">Unknown Hero</h2>
+
+      <div class="stats">
+        <p>Level: <span id="levelText">1</span></p>
+        <p>HP: <span id="hpText">100</span></p>
+        <p>XP: <span id="xpText">0</span></p>
+      </div>
+
+      <div class="buttons">
+        <button id="trainButton">Train +10 XP</button>
+        <button id="damageButton">Take damage -15 HP</button>
+        <button id="healButton">Heal +10 HP</button>
+        <button id="themeButton">Change theme</button>
+      </div>
+
+      <div class="log-box">
+        <h3>Action log</h3>
+        <p id="logText">No actions yet.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html> 
